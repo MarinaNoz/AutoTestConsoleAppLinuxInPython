@@ -1,0 +1,32 @@
+
+#! /bin/bash
+RESULT=$(cat /etc/os-relase)
+if [[ $RESULT == *'22.04.2'* && $RESULT == *'jammy'* &? == 0 ]];
+then
+echo "SUCCESS"
+else
+echo "FAIL"
+fi
+
+
+
+import subprocess
+
+res = subprocess.run ('cat /etc/os-relase', shell=True, stdout=subprocess.PIPE, enccoding='utf-8' and res.returncode == 0):
+print ("SUCCESS")
+else:
+print ("FALSE")
+
+
+
+import subprocess
+
+res = subprocess.run ('cat /etc/os-relase', shell=True, stdout=subprocess.PIPE, enccoding='utf-8' and res.returncode == 0):
+my_list = res.stdout.split('\n')
+if res.returncode == 0:
+if 'VERSION="22.04.2 LTS (Jammy Jellyfish)"' in my_list and 'VERSION_CODENAME=jammy' in my_list:
+print ("SUCCESS 2.0")
+else:
+print ("FALSE")
+else:
+print ("FALSE")

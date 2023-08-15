@@ -1,0 +1,13 @@
+FOLDER_TST: /home/marina/folder_tst
+FOLDER_OUT: /home/marina/folder_out
+FOLDER_4DEL: /home/marina/folder_4del
+FOLDER_4BAD: /home/marina/folder_4bad
+FOLDER_X_TST: /home/marina/folder_x_tst
+FOLDER_X_OUT: /home/marina/folder_x_out
+FOLDER_TARG: /home/marina/folder_targ
+FOLDER_STAT: /home/marina/folder_stat
+LOADAVG: /proc/
+FILE_STAT: stat.txt
+FILE_INPUT: arx2
+count: 2
+size: 6M

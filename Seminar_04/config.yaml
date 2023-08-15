@@ -1,0 +1,17 @@
+FOLDER_TST: /home/usertest/folder_tst
+FOLDER_OUT: /home/usertest/folder_out
+FOLDER_4DEL: /home/usertest/folder_4del
+FOLDER_4BAD: /home/usertest/folder_4bad
+FOLDER_X_TST: /home/usertest/folder_x_tst
+FOLDER_X_OUT: /home/usertest/folder_x_out
+FOLDER_TARG: /home/usertest/folder_targ
+FOLDER_STAT: /home/nikolay/folder_stat
+host: 0.0.0.0
+port: 22
+user: usertest
+passwd: qwerty
+LOADAVG: /proc/
+FILE_STAT: stat.txt
+FILE_INPUT: arx2
+count: 3
+size: 1M
